@@ -7,3 +7,11 @@
 - 문자열의 각 문자들은 인덱스(index)로 관리되며
 맨 앞글자부터 0번이 저장되며, 그 뒤로 1씩 순차적으로 증가합니다.
 '''
+
+s = 'python'
+# [p, y, t, h, o, n]
+print(s)
+print(s[2])
+print(s[5])
+print(s[-1])
+print(s[-5])
